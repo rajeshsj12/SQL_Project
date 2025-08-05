@@ -53,7 +53,7 @@ This project demonstrates a complete **end-to-end MySQL-based database system** 
 - Experience implementing real-world business rules using SQL
 - Deepened understanding of transactions, indexing, and partitioning
 
-![alt text](ERD-1.png)
+![alt text](ERD.png)
 ---
 
 > 🔍 *Built with a focus on real-world transactional use cases, data reliability, and database design best practices.*
