@@ -1,0 +1,13 @@
+ IoT Data Logging & Analysis
+
+    Concept: Create a database for storing data from IoT devices, analyze sensor data over time, and visualize trends.
+
+    Key Features:
+
+        Sensor data storage (temperature, humidity, etc.).
+
+        Time-based data analysis (e.g., trend analysis, anomaly detection).
+
+        Integration with visualization tools (like Tableau, or use pg_stat_statements for optimization).
+
+    SQL Techniques: Time-series data management, date_trunc, PARTITION BY, window functions, and data integrity. 
