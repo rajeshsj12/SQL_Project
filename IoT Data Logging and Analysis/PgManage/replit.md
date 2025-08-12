@@ -6,6 +6,37 @@ A comprehensive cross-platform PostgreSQL database management web application bu
 
 Preferred communication style: Simple, everyday language.
 
+# Recent Changes (August 2025)
+
+## Navigation and UI Improvements
+- Fixed sidebar navigation structure to remove unwanted options above database connection form
+- Cleaned up navigation menu to show only when properly connected
+- Added ERD (Entity Relationship Diagram) page with interactive visualization
+
+## DCL Operations Enhancements  
+- Enhanced DCL operations with comprehensive SQL code generation and preview
+- Added checkbox interface for all privilege types instead of multiselect dropdowns
+- Implemented real-time SQL code preview for all DCL operations (CREATE ROLE, GRANT, REVOKE)
+- Added revoke privileges functionality with CASCADE/RESTRICT options
+- Added user/role deletion capabilities with confirmation prompts
+- Enhanced privilege types to include Database, Schema, Table, Sequence, Function, and Type
+- Added WITH GRANT OPTION support for privilege delegation
+- Implemented comprehensive security overview with recommendations
+
+## Tables Page Enhancements
+- Added Column Statistics tab with detailed analysis for numeric and text columns
+- Implemented descriptive statistics (min, max, avg, std deviation) for numeric columns  
+- Added unique value counts and most common values analysis for text columns
+- Enhanced table statistics with null percentage and uniqueness calculations
+- Added comprehensive column type categorization and summary
+
+## ERD Functionality
+- Created interactive Entity Relationship Diagram visualization using Plotly
+- Displays table relationships with foreign key connections
+- Shows schema overview with table counts and column statistics
+- Provides detailed relationship information with constraint rules
+- Interactive table positioning and relationship mapping
+
 # System Architecture
 
 ## Frontend Architecture

@@ -38,6 +38,9 @@ def main():
         box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         margin: 0.5rem 0;
     }
+    #stSidebarNav{
+        display.none;
+    }
     </style>
     """, unsafe_allow_html=True)
     
@@ -46,16 +49,15 @@ def main():
     
     # Sidebar for navigation and connection
     with st.sidebar:
-        st.header("🔧 Database Connection")
-        
         # Connection form
         if not st.session_state.get('connected', False):
+            st.header("🔧 Database Connection")
             show_connection_form()
         else:
+            st.header("🔧 Database Connection")
             show_connection_status()
             
-        # Navigation menu (only show if connected)
-        if st.session_state.get('connected', False):
+            # Navigation menu
             st.header("📊 Navigation")
             show_navigation_menu()
     
